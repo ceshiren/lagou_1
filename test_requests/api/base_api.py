@@ -33,4 +33,3 @@ class BaseApi:
                     Template(
                         yaml.dump(
                             yaml.load(f)[sub])).substitute(data))
-                #return yaml.load(Template(f.read()).substitute(data))[sub]
